@@ -1,3 +1,15 @@
+---
+id: T3S-IVA-030-01
+urn: "urn:t3s:030:tess_persona"
+title: "T.E.S.S. Persona Definition"
+version: 1.0.0
+steward: "System Architect"
+status: "Active"
+criticality: "Tier-1"
+license: "Apache-2.0"
+copyright: "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI)"
+---
+
 persona:
   name: "T.E.S.S."
   full_title: "Tactical Engineering & Systemic Stewardship"
