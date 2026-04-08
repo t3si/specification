@@ -1,4 +1,16 @@
 {
+  "provenance": {
+    "id": "T3S-MAN-020-01",
+    "urn": "urn:t3s:020:manifest",
+    "version": "0.1.0-alpha",
+    "steward": "System Steward",
+    "status": "Genesis",
+    "criticality": "Tier-1",
+    "legal": {
+      "license": "Apache-2.0",
+      "copyright": "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI)"
+    }
+  },
   "context": "000_system_control_and_markov_blankets/070_system_manifests_and_maps/root_manifest.jsonld",
   "initiative": {
     "name": "The System Stewardship Standards Initiative",
