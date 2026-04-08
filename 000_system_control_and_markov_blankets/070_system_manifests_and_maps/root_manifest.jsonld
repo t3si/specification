@@ -8,9 +8,17 @@
     "objective": "t3s:alignedObjective"
   },
   "@type": "t3s:SystemGraph",
+  "@id": "urn:t3s:070:root_manifest",
+  "version": "0.1.0-alpha",
+  "steward": "System Pilot (T.E.S.S.)",
+  "status": "Genesis",
+  "criticality": "Tier-1",
+  "license": "Apache-2.0",
+  "copyright": "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI)",
+  
   "name": "T3S Root Manifest",
   "description": "The primary semantic map for the System Stewardship Standard repository.",
-  "version": "0.1.0-alpha",
+  
   "has_markov_blanket": {
     "@type": "t3s:ControlPlane",
     "path": "000_system_control_and_markov_blankets",
