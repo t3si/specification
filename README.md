@@ -1,3 +1,16 @@
+---
+id: T3S-DOC-000-01
+urn: "urn:t3s:root:readme"
+title: "The System Stewardship Standard (T3S)"
+version: 0.1.0-alpha
+status: Genesis
+steward: "System Steward"
+classification: "Public"
+criticality: "Tier-1"
+license: "CC-BY-4.0"
+copyright: "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI)"
+---
+
 # The System Stewardship Standard (T3S)
 ### *A Unified Framework for Ontological System Governance*
 **An Initiative of T3SI (The System Stewardship Standards Initiative)**
@@ -54,4 +67,6 @@ The T3S standard is maintained by **T3SI**. The initiative is currently in the *
 The T3S standard includes **T.E.S.S.** (Tactical Engineering & Systemic Stewardship), a reference IVA configured as a System Pilot. T.E.S.S. is ITIL-aligned and optimized for high-velocity service management within a privacy-protected, semantically anchored environment.
 
 ---
-© 2026 T3SI | Licensed under the Apache 2.0 
+## License
+Copyright © 2026 The System Stewardship Standards Initiative (T3SI).
+This documentation is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
