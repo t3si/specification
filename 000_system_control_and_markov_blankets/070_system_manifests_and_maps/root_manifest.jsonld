@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "t3s": "https://t3si.org/ontology/",
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "path": "t3s:repositoryPath",
+    "objective": "t3s:alignedObjective"
+  },
+  "@type": "t3s:SystemGraph",
+  "name": "T3S Root Manifest",
+  "description": "The primary semantic map for the System Stewardship Standard repository.",
+  "version": "0.1.0-alpha",
+  "has_markov_blanket": {
+    "@type": "t3s:ControlPlane",
+    "path": "000_system_control_and_markov_blankets",
+    "contains": [
+      { "id": "010", "name": "Policy and Mandates", "objective": "Objective A" },
+      { "id": "050", "name": "Core Ontologies", "objective": "Objective B" },
+      { "id": "060", "name": "Governance Gates", "objective": "Objective E" }
+    ]
+  },
+  "observational_plane": [
+    {
+      "path": "100_governance_and_strategy",
+      "objective": "Objective E",
+      "description": "Standard of Care and Forensic requirements."
+    },
+    {
+      "path": "200_system_architecture_and_design",
+      "objective": "Objective C",
+      "description": "Architectural blueprints and Verifiable AI circuits."
+    },
+    {
+      "path": "500_technical_operations_and_service_evidence",
+      "objective": "Objective D",
+      "description": "ITIL-aligned operational telemetry and forensic evidence."
+    }
+  ]
+}
