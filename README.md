@@ -8,7 +8,7 @@ steward: "System Steward"
 classification: "Public"
 criticality: "Tier-1"
 license: "CC-BY-4.0"
-copyright: "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI)"
+copyright: "Copyright © 2026 The System Stewardship Standards Initiative (T3SI)"
 ---
 
 # The System Stewardship Standard (T3S)
@@ -18,7 +18,9 @@ copyright: "Copyright (c) 2026 The System Stewardship Standards Initiative (T3SI
 ---
 
 ## 0.0 Foreword
-The **System Stewardship Standard (T3S)** is a normative specification for the organization, indexing, and ontological governance of complex technical environments. It establishes a **Deterministic File-System Hierarchy** that functions as a "Reality Engine" for AI-augmented workflows. By utilizing **Linked Data (JSON-LD)**, T3S ensures that system intent, architectural guardrails, and operational evidence are semantically anchored, preventing "Ontological Drift" and ensuring autonomous agents operate within human-defined **Markov Blankets**.
+The **System Stewardship Standard (T3S)** is a normative specification for the organization, indexing, and ontological governance of complex technical environments. It establishes a **Deterministic File-System Hierarchy** that functions as a "Reality Engine" for AI-augmented workflows. 
+
+T3S is specifically engineered to solve the **"Accountability Vacuum"**—the structural tension in highly regulated and high-hazard industries between high-level policy and low-level execution. By utilizing **Linked Data (JSON-LD)**, T3S ensures that system intent, architectural guardrails, and operational evidence are semantically anchored, preventing "Ontological Drift" and ensuring autonomous agents operate within human-defined **Markov Blankets**.
 
 ## 1.0 Stewardship Mandates (Objectives)
 T3SI is governed by five immutable objectives:
@@ -27,7 +29,7 @@ T3SI is governed by five immutable objectives:
 * **Objective B: Semantic Stewardship.** Provision of a **JSON-LD based Knowledge Graph** that bridges the gap between machine-readable manifests (000) and human-authored standards (100-900), ensuring agents interpret **Systemic Intent** with absolute fidelity.
 * **Objective C: Digital Sovereignty & Verifiable AI.** Mandating structures that support local-first privacy, **Formal Verification Proofs**, and **ZKML (Zero-Knowledge Machine Learning)** circuits within a self-hosted context.
 * **Objective D: ITIL-Symmetry.** Maintaining a direct link between industry-standard Service Management and the physical repository architecture, from System Control (000) to Operations (500).
-* **Objective E: Verifiable Insurability.** Developing a standardized "Standard of Care" that translates technical telemetry into forensic evidence, enabling the creation of pre-underwritten, risk-mitigated environments for autonomous agents.
+* **Objective E: Verifiable Insurability.** Developing a standardized **"Standard of Care"** that shifts governance from a **Statement of Belief into a Technical Boolean**. This ensures technical telemetry is transformed into forensic evidence, enabling the creation of pre-underwritten, risk-mitigated environments for autonomous agents.
 
 ## 2.0 Normative Scope & Constraints
 Compliance with T3S requires adherence to the following structural mandates:
@@ -38,21 +40,22 @@ Compliance with T3S requires adherence to the following structural mandates:
 * **Naming Discipline:** All entities must utilize `snake_case` naming and must be prefixed with their assigned three-digit (or extended decimal) index.
 
 ### 2.2 Technical Scope
+* **In-Scope: The Standard of Care.** The formalization of professional liability and safety constraints into core logic gates, ensuring the architecture acts as the primary enforcer of intent.
 * **In-Scope: System Control (000).** Machine-readable manifests, persona configurations, and systemic integrity schemas.
 * **In-Scope: Semantic Schemas (000-100).** JSON-LD contexts that map file-system paths to global ontologies (ITIL, ISO, T3S).
-* **In-Scope: Governance-as-Code (CI/CD).** Automated validation pipelines that verify "Intent Alignment" before any structural change is persisted to the System Control Plane.
+* **In-Scope: Governance-as-Code (CI/CD).** Automated validation pipelines that verify "Intent Alignment" as a hard constraint before structural persistence.
 * **In-Scope: Service Evidence.** CMDB configurations (400) and the **Insurable Evidence Database (EDB)** (500).
 
-* **Out-of-Scope: Application Source Code.** T3S is a governance and orchestration framework; application-specific source code should reside in sub-indexed modules or external repositories referenced via manifest, not within the core taxonomy blocks.
-* **Out-of-Scope: Unstructured Binary Data.** Large non-versioned assets (e.g., raw model weights, video datasets) are out-of-scope and should be handled via pointer/hash references within the 400 or 500 blocks.
-* **Out-of-Scope: Non-Prefixed Artifacts.** Any file or directory lacking a valid T3S taxonomic prefix is considered a violation of the standard and should be rejected by the CI/CD governance gate.
+* **Out-of-Scope: Application Source Code.** T3S is a governance framework; source code should reside in sub-indexed modules or external repositories referenced via manifest.
+* **Out-of-Scope: Unstructured Binary Data.** Managed via pointer/hash references within the 400 or 500 blocks to maintain repository performance.
+* **Out-of-Scope: Non-Prefixed Artifacts.** Any file lacking a valid T3S prefix is a violation of the standard and must be rejected by the governance gate.
 
 ### 2.3 The Semantic Anchor (JSON-LD)
 Unlike traditional hierarchical structures, T3S employs **Linked Data (JSON-LD)** within the 000-Block. This transforms the directory from a passive storage tree into an **Active Knowledge Graph**. Every artifact is semantically mapped to its governing policy (100) and its operational evidence (500), ensuring that **System Intent** is preserved across all layers of the stack.
 
 ## 3.0 Core Repository Taxonomy
 * **000 | System Control and Markov Blankets:** Identity manifests, **Ontological Guardrails**, and Persona constraints.
-* **100 | Governance and Strategy:** Portfolio, **Standard of Care (Insurance-Aligned)**, Policy, and ADRs.
+* **100 | Governance and Strategy:** Portfolio, **Standard of Care**, Policy, and ADRs.
 * **200 | System Architecture and Design:** Logical Architecture, Agentic Logic, and **Verifiable AI/ZKML Circuits**.
 * **300 | Platform Engineering and Automation:** IaC, Scripts, and CI/CD Governance Pipelines.
 * **400 | Infrastructure and Assets:** CMDB, Network Configs, and Provisioning.
