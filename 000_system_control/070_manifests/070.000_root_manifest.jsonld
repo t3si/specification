@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "t3s": "https://t3si.org/ontology/",
+    "schema": "https://schema.org/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "path": "t3s:repositoryPath",
+    "objective": "t3s:alignedObjective"
+  },
+  "@type": "t3s:SystemGraph",
+  "@id": "urn:t3s:manifests:root",
+  "version": "0.2.0-alpha",
+  "steward": "System Steward",
+  "status": "Genesis",
+  "criticality": "Tier-1",
+  "license": "Apache-2.0",
+  "copyright": "Copyright © 2026 The System Stewardship Standards Initiative (T3SI)",
+
+  "name": "T3S Root Manifest",
+  "description": "The primary semantic map for the System Stewardship Standard repository.",
+
+  "has_markov_blanket": {
+    "@type": "t3s:ControlPlane",
+    "path": "000_system_control",
+    "contains": [
+      { "id": "010", "name": "Mandates", "objective": "Objective A" },
+      { "id": "020", "name": "Version", "objective": "Objective A" },
+      { "id": "030", "name": "Personas", "objective": "Objective C" },
+      { "id": "040", "name": "Integrity", "objective": "Objective C" },
+      { "id": "050", "name": "Ontologies", "objective": "Objective B" },
+      { "id": "060", "name": "Pipelines", "objective": "Objective E" },
+      { "id": "070", "name": "Manifests", "objective": "Objective B" }
+    ]
+  },
+  "observational_plane": [
+    {
+      "path": "100_governance",
+      "objective": "Objective E",
+      "description": "Strategic alignment, Standard of Care, and forensic requirements."
+    },
+    {
+      "path": "200_architecture",
+      "objective": "Objective C",
+      "description": "Architectural blueprints and Verifiable AI/ZKML circuits."
+    },
+    {
+      "path": "300_engineering",
+      "objective": "Objective B",
+      "description": "Automated intent validation and governance-as-code."
+    },
+    {
+      "path": "400_infrastructure",
+      "objective": "Objective D",
+      "description": "Sovereign hardware configurations and CMDB assets."
+    },
+    {
+      "path": "500_operations",
+      "objective": "Objective D",
+      "description": "ITIL-aligned operational telemetry and forensic Evidence Database (EDB)."
+    },
+    {
+      "path": "600_observability",
+      "objective": "Objective B",
+      "description": "Feedback loops, alignment monitoring, and model drift analysis."
+    },
+    {
+      "path": "900_tools",
+      "objective": "Objective A",
+      "description": "Operational support utilities, local Lexicon, and global archive."
+    }
+  ]
+}
