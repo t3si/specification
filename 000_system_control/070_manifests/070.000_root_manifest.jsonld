@@ -1,72 +1,81 @@
 {
   "@context": {
-    "t3s": "https://t3si.org/ontology/",
+    "t3s": "https://t3si.org/ontology/v0.2.0/",
     "schema": "https://schema.org/",
     "name": "schema:name",
     "description": "schema:description",
     "path": "t3s:repositoryPath",
+    "anchor": "t3s:anchorArtifact",
     "objective": "t3s:alignedObjective"
   },
   "@type": "t3s:SystemGraph",
-  "@id": "urn:t3s:manifests:root",
+  "@id": "urn:t3s:v0.2.0:manifests:root",
   "version": "0.2.0-alpha",
-  "steward": "System Steward",
+  "steward": "urn:t3s:steward:[ROOT_STEWARD_ID]",
   "status": "Genesis",
   "criticality": "Tier-1",
   "license": "Apache-2.0",
   "copyright": "Copyright © 2026 The System Stewardship Standards Initiative (T3SI)",
 
   "name": "T3S Root Manifest",
-  "description": "The primary semantic map for the System Stewardship Standard repository.",
+  "description": "The authoritative semantic map for the T3S repository, merging the Control Plane boundary with the Observational Plane's functional objectives.",
 
   "has_markov_blanket": {
     "@type": "t3s:ControlPlane",
     "path": "000_system_control",
     "contains": [
-      { "id": "010", "name": "Mandates", "objective": "Objective A" },
-      { "id": "020", "name": "Version", "objective": "Objective A" },
-      { "id": "030", "name": "Personas", "objective": "Objective C" },
-      { "id": "040", "name": "Integrity", "objective": "Objective C" },
-      { "id": "050", "name": "Ontologies", "objective": "Objective B" },
-      { "id": "060", "name": "Pipelines", "objective": "Objective E" },
-      { "id": "070", "name": "Manifests", "objective": "Objective B" }
+      { "id": "010", "name": "Mandates", "anchor": "010.000_mandates_manifest.md", "objective": "Objective A" },
+      { "id": "020", "name": "Version", "anchor": "020.000_version_control.md", "objective": "Objective A" },
+      { "id": "030", "name": "Personas", "anchor": "030.000_persona_definitions.md", "objective": "Objective C" },
+      { "id": "040", "name": "Integrity", "anchor": "040.000_integrity_manifest.md", "objective": "Objective C" },
+      { "id": "050", "name": "Ontologies", "anchor": "050.000_ontology_root.md", "objective": "Objective B" },
+      { "id": "060", "name": "Pipelines", "anchor": "060.000_automation_logic.md", "objective": "Objective E" },
+      { "id": "070", "name": "Manifests", "anchor": "070.000_root_manifest.jsonld", "objective": "Objective B" }
     ]
   },
+
   "observational_plane": [
     {
-      "path": "100_governance",
+      "path": "100_governance_and_strategy",
+      "anchor": "110.000_strategy_manifest.md",
       "objective": "Objective E",
-      "description": "Strategic alignment, Standard of Care, and forensic requirements."
+      "description": "Strategic alignment, Standard of Care (120), and ADR governance (140)."
     },
     {
-      "path": "200_architecture",
+      "path": "200_system_architecture_and_design",
+      "anchor": "200.000_architecture_manifest.md",
       "objective": "Objective C",
-      "description": "Architectural blueprints and Verifiable AI/ZKML circuits."
+      "description": "Universal architectural blueprints and sovereign logic circuits."
     },
     {
-      "path": "300_engineering",
+      "path": "300_platform_engineering_and_automation",
+      "anchor": "300.000_engineering_standards.md",
       "objective": "Objective B",
       "description": "Automated intent validation and governance-as-code."
     },
     {
-      "path": "400_infrastructure",
+      "path": "400_infrastructure_and_assets",
+      "anchor": "400.000_infrastructure_manifest.md",
       "objective": "Objective D",
       "description": "Sovereign hardware configurations and CMDB assets."
     },
     {
-      "path": "500_operations",
+      "path": "500_technical_operations_and_service_evidence",
+      "anchor": "500.000_operations_manifest.md",
       "objective": "Objective D",
       "description": "ITIL-aligned operational telemetry and forensic Evidence Database (EDB)."
     },
     {
-      "path": "600_observability",
+      "path": "600_observability_feedback_and_learning",
+      "anchor": "600.000_observability_manifest.md",
       "objective": "Objective B",
       "description": "Feedback loops, alignment monitoring, and model drift analysis."
     },
     {
-      "path": "900_tools",
+      "path": "900_tools_and_utilities",
+      "anchor": "900.000_tools_manifest.md",
       "objective": "Objective A",
-      "description": "Operational support utilities, local Lexicon, and global archive."
+      "description": "Operational support utilities and local-first capability requirements."
     }
   ]
 }

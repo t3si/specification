@@ -1,6 +1,6 @@
 ---
 id: T3S-IVA-030-000
-urn: "urn:t3s:personas:tess"
+urn: "urn:t3s:v0.2.0:personas:tess"
 title: "T.E.S.S. Persona Definition"
 version: 0.2.0-alpha
 steward: "System Steward"

@@ -7,7 +7,7 @@ status: Genesis
 steward: "System Steward"
 classification: "Public"
 criticality: "Tier-1"
-license: "CC-BY-4.0"
+license: "Apache-2.0"
 copyright: "Copyright © 2026 The System Stewardship Standards Initiative (T3SI)"
 ---
 
@@ -81,4 +81,4 @@ The T3S standard is maintained by **T3SI**. The initiative is currently in the *
 ---
 ## License
 Copyright © 2026 The System Stewardship Standards Initiative (T3SI).
-This documentation is licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+This documentation is licensed under Apache-2.0.
