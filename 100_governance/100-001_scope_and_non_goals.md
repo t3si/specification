@@ -2,7 +2,7 @@
 id: "T3S-DOC-100-001"
 urn: "urn:t3s:v0.2.1-alpha:leaf:control:h:[HASH_RESERVED]"
 type: "t3s:leaf"
-plane: "t3s:control""
+plane: "t3s:control"
 domain: "100_governance"
 title: "Scope and Non-Goals"
 objective: "Define the strategic boundaries, governance scope, and explicit exclusions of the T3S Standard."
