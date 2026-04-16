@@ -1,7 +1,6 @@
 ---
 id: "T3S-DOC-040-000"
 urn: "urn:t3s:v0.2.1-alpha:root:control:h:[HASH_RESERVED]"
-type: "t3s:root"
 plane: "t3s:control"
 root: "000_system"
 domain: "integrity"
